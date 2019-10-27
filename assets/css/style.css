@@ -1,0 +1,72 @@
+p {
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+button {
+    border-radius: 4px;
+    background: #0b0ec7;
+    color: white;
+    margin: 4px;
+}
+
+#animal-form {
+    float: right;
+    margin-right: 15px;
+    width: 35%;
+}
+
+#animals {
+    /*float: left;*/
+    margin-left: 15px;
+    width: 65%;
+}
+
+#addAnimal {
+    border-radius: 4px;
+    background: #0b0ec7;
+    color: white;
+    margin-top: 10px;
+    
+}
+
+label { 
+    display: block;
+    text-align: left;
+    font-weight: bold;
+}
+
+img {
+    width: 175px;
+    height: 175px;
+}
+
+.item {
+    float: left;
+    margin-right: 10px;
+}
+
+
+/**
+ * Media Query
+ **/
+  
+ @media screen and (max-width: 768px) {
+    
+    img {
+        width: 200px;
+        height: 200px;
+        
+    }
+  }    
+  
+  /* Additional Screen Sizes */
+  
+  /* Width at 640px and below */
+  @media screen and (max-width: 640px) {
+  
+    img {
+        width: 150px;
+        height: 150px;
+    }
+  }
